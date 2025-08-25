@@ -36,6 +36,7 @@ dependencies {
     testCompileOnly("org.projectlombok:lombok:1.18.34")
     testAnnotationProcessor("org.projectlombok:lombok:1.18.34")
 
+    implementation("net.datafaker:datafaker:2.4.4")
 
 }
 

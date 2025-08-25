@@ -1,6 +1,8 @@
 package migrate_practice.example.Migrate.Entity;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -9,6 +11,8 @@ import java.util.UUID;
 
 
 @Entity
+@Getter
+@Setter
 @Table(name = "ln_account", schema = "public")
 public class LnAccount {
     @Id
